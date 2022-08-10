@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <!--meta name="viewport" content=width=device-width-->
+    <title> escolha um número </title>
+    </head>
+    <body>  
+                    <div>
+            <label>digite um número</label> <input  type="text" id="valorone">  
+                    </div>
+                    
+            <input type="button" id="botao" onclick="calcular()" value=" Gerar um número aleatório ">
+                    </div>
+                <script>
+            function calcular(){ 
+
+                var numero = math.random
+                
+                if (anos<3) {   
+                    salario = ((salario*0.03)+salario); 
+                    mensagemRetorno = "você está na empresa a " + anos + " anos e seu novo salario será " + salario ;
+                }
+                else if (anos >=3 && anos <= 10) {   
+                    salario = ((salario*0.125)+salario); 
+                    mensagemRetorno = "você está na empresa a " + anos + " anos e seu novo salario será " + salario ;
+                }
+                else if (anos >=10) {   
+                    salario = ((salario*0.2)+salario); 
+                    mensagemRetorno = "você está na empresa a " + anos + " anos e seu novo salario será " + salario ;
+                    
+                }
+
+                alert(mensagemRetorno);
+
+                }
+
+      </script>
+</body>
+
+</html> 
